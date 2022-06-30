@@ -11,8 +11,19 @@ header {
   padding: 0rem 2rem;
 }
 
-nav > ul > li {
+ul {
+  display: inline;
+}
+
+ul > li {
   display: inline;
   list-style: none;
   padding: 1rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
 }
